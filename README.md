@@ -30,6 +30,13 @@ Folllwing these steps to run the script, this will then setup the VM and downloa
 1. **run the command**
    - ./flux-ai.sh --accessToken {accessToken} --modelName {["dev", "schell"]}
 
+## Status
+The script works well, installs are required dependencies. 
+### Todo 
+- I need to update the python code in the downloaded flux model repo to extract the generated images, at the moment the output directory is empty after running a generation.
+- Add some logging to see the progress of the image generation (if possible)
+- Add a way to access the images or save them somewhere available on the internet.
+
 
 ## Author
 Khomotso Zwane
