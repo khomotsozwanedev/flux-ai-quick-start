@@ -18,17 +18,17 @@ To get started with Flux-AI Model, you will need:
 Follow these steps to set up the Flux-AI model script:
 
 1. **Pull the Repository**:
-   git clone [https://github.com/khomotsozwanedev/flux-ai-quick-start.git](https://github.com/khomotsozwanedev/flux-ai-quick-start.git)
-   cd flux-ai-model
+   - git clone [https://github.com/khomotsozwanedev/flux-ai-quick-start.git](https://github.com/khomotsozwanedev/flux-ai-quick-start.git)
+   - cd flux-ai-model
 2. **make the script file executable**
-   chmod +x flux-ai.sh
+   - chmod +x flux-ai.sh
 
 ## Running the installation script
 
 Folllwing these steps to run the script, this will then setup the VM and download the models before allowing your to access the image generation prompt
 
 1. **run the command**
-   ./flux-ai.sh --accessToken {accessToken} --modelName {["dev", "schell"]}
+   - ./flux-ai.sh --accessToken {accessToken} --modelName {["dev", "schell"]}
 
 
 ## Author
